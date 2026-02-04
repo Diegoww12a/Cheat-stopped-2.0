@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+
+  background: #09090b;
+  /* background: linear-gradient(to bottom left, #0f172a, #1e1a78, #0f172a); */
+}
+
+
+
+.gg:hover {
+  box-shadow: 0px 0px 17px 0px rgba(187, 187, 187, 0.308);
+  /* border: 1px solid rgb(27, 27, 27); */
+}
+.gg {
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  transition: border, 0.3s ease-in-out;
+  
+}
+
+
+.cars {
+  /* border-color: red transparent; */
+  transition: background-color 0.3s ease;
+}
+
+.cars:hover {
+  background-color: rgba(0, 0, 0, 0.11);
+  border: 1px solid rgba(20, 20, 20, 0.411);  
+  /* border-color: red; */
+}
+.junte {
+  transition: background-color 0.4s ease;
+}
+
+.junte:hover {
+  background-color: rgb(6, 69, 141);
+  border: 1px solid rgb(50, 143, 250);
+  
+}
+
+.junte2 {
+  transition: background-color 0.4s ease;
+}
+
+.junte2:hover {
+  background-color: rgba(6, 69, 141, 0.26);
+  border: 1px solid rgb(50, 143, 250);
+  
+}
+
+.kk {
+  transition: background-color 0.4s ease;
+}
+
+.kk:hover {
+  background-color: rgba(6, 63, 128, 0.534);
+  border: 1px solid rgba(50, 143, 250, 0.521); 
+  
+}
+.img {
+  transition: transform 0.3s ease-in;
+}
+.img:hover {
+  transform: scale(1.010);
+}
+
+
+.bt {
+  transition: background-color 0.4s ease;
+}
+
+.bt:hover {
+  background-color: rgb(6, 69, 141);
+  border: 1px solid rgb(50, 143, 250);
+  
+}
